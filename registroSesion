@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publicaciones</title>
+</head>
+<body>
+      <div style="width: 1959px; height: 1178px; position: relative; background: white; border-radius: 25px; overflow: hidden">
+  <div style="width: 602px; height: 826px; left: 678px; top: 123px; position: absolute; background: #EADDFF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 25px; overflow: hidden">
+    <div style="width: 93px; height: 97px; padding-left: 7.75px; padding-right: 7.75px; padding-top: 8.08px; padding-bottom: 8.08px; left: 255px; top: 142px; position: absolute; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+      <div style="width: 77.50px; height: 80.83px; background: #1D1B20"></div>
+    </div>
+    <div style="padding-top: 25px; padding-bottom: 24px; padding-left: 108px; padding-right: 109px; left: 46px; top: 40px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
+      <div style="color: black; font-size: 57px; font-family: Roboto; font-weight: 600; line-height: 52px; word-wrap: break-word">Registrarse</div>
+    </div>
+    <div style="width: 450px; height: 56px; left: 76px; top: 290px; position: absolute; background: white; border-radius: 20px"></div>
+    <div style="left: 78px; top: 238px; position: absolute; color: black; font-size: 20px; font-family: Roboto; font-weight: 600; line-height: 52px; word-wrap: break-word">Usuario: </div>
+    <div style="width: 450px; height: 56px; left: 76px; top: 516px; position: absolute; background: white; border-radius: 20px"></div>
+    <div style="left: 76px; top: 464px; position: absolute; color: black; font-size: 20px; font-family: Roboto; font-weight: 600; line-height: 52px; word-wrap: break-word">Contraseña: </div>
+    <div style="width: 450px; height: 56px; left: 76px; top: 624px; position: absolute; background: white; border-radius: 20px"></div>
+    <div style="left: 76px; top: 572px; position: absolute; color: black; font-size: 20px; font-family: Roboto; font-weight: 600; line-height: 52px; word-wrap: break-word">Repita la contraseña: </div>
+    <div style="width: 450px; height: 56px; left: 76px; top: 730px; position: absolute; background: white; border-radius: 20px"></div>
+    <div style="left: 76px; top: 678px; position: absolute; color: black; font-size: 20px; font-family: Roboto; font-weight: 600; line-height: 52px; word-wrap: break-word">Correo electronico:</div>
+    <div style="left: 78px; top: 346px; position: absolute; color: black; font-size: 20px; font-family: Roboto; font-weight: 600; line-height: 52px; word-wrap: break-word">Nombre Completo:</div>
+  </div>
+  <div style="width: 450px; height: 56px; left: 754px; top: 521px; position: absolute; background: white; border-radius: 20px"></div>
+  <div style="width: 602px; padding-top: 5px; padding-bottom: 4px; left: 678px; top: 973px; position: absolute; background: #EADDFF; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 20px; overflow: hidden; justify-content: center; align-items: center; display: inline-flex">
+    <div style="color: black; font-size: 30px; font-family: Roboto; font-weight: 600; line-height: 52px; word-wrap: break-word">UNIRSE</div>
+  </div>
+</div>
+</body>
+</html>
