@@ -1,0 +1,225 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: white;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px;
+    border-bottom: 1px solid #D9D9D9;
+    background: white;
+}
+
+.logo {
+    width: 23px;
+    height: 35px;
+    border: 3.5px solid #21005D;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.nav-item {
+    padding: 8px;
+    background: #F5F5F5;
+    border-radius: 8px;
+}
+
+.nav-buttons .btn {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.btn.login {
+    background: #E3E3E3;
+    border-color: #767676;
+}
+
+.btn.register {
+    background: #2C2C2C;
+    border-color: #2C2C2C;
+    color: #F5F5F5;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 160px 24px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.80), rgba(255, 255, 255, 0.80));
+    gap: 32px;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 72px;
+    font-weight: 700;
+    color: #0C0C0D;
+}
+
+.hero p {
+    font-size: 32px;
+    font-weight: 400;
+    color: #0C0C0D;
+}
+
+.hero-controls .btn {
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn.control {
+    background: #2C2C2C;
+    border-color: #2C2C2C;
+    color: #F5F5F5;
+}
+
+/* Featured Section */
+.featured {
+    display: flex;
+    justify-content: space-between;
+    padding: 64px;
+    background: #21005D;
+    opacity: 0.80;
+}
+
+.featured-image {
+    flex: 1;
+    margin: 0 16px;
+    border-radius: 20px;
+    background: #E3E3E3;
+}
+
+/* Content Section */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 64px;
+    background: #1D192B;
+    gap: 48px;
+}
+
+.content-item {
+    flex: 1 1 300px;
+    color: white;
+}
+
+.content-item h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.content-item p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.video-placeholder, .image-placeholder {
+    width: 208px;
+    height: 116px;
+    background: #D9D9D9;
+    border-radius: 20px;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 32px;
+    border-top: 1px solid #D9D9D9;
+    background: white;
+}
+
+.footer-logo {
+    width: 23px;
+    height: 35px;
+    border: 3.5px solid #1E1E1E;
+}
+
+.footer-social {
+    display: flex;
+    gap: 16px;
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    background: #1E1E1E;
+}
+
+.footer-links {
+    flex: 1;
+}
+
+.footer-links h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-newsletter {
+    flex: 1;
+}
+
+.footer-newsletter h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.footer-newsletter p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-newsletter form {
+    display: flex;
+    gap: 8px;
+}
+
+.footer-newsletter input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+}
+
+.btn.subscribe {
+    padding: 8px;
+    border-radius: 8px;
+    background: #2C2C2C;
+    color: #F5F5F5;
+    cursor: pointer;
+}
