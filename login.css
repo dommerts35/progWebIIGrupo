@@ -1,0 +1,61 @@
+*{
+    
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+body{
+    margin-top: 8%;
+    margin-left: 36%;
+}
+.login{
+    background-color: #EADDFF;
+    border-radius: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    display: block;
+    
+    
+}
+
+.imagenlogo{
+    width: 100px;
+    height: 100px;
+    margin-left: 37%;
+}
+.texxto{
+    padding-left: 40%;
+    padding-top: 12%;
+    font-size: 30px;
+}
+
+.usurioycontraseña{
+    font-size: 15px;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.ingresoDatos{
+    margin-left: 10%;
+    padding-block: 3%;
+    border: 0;
+    border-radius: 10px;
+    width: 80%;
+    margin-top: 3%;
+}
+
+
+.ingresar{
+    padding-block: 10px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #EADDFF;
+    border: 0;
+}
+
+.divBoton{
+    margin-top: 3%;
+}
