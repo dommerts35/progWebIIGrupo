@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+    <!-- Título de la página web que se muestra en la pestaña del navegador -->
+    <script src="validacion_datos.js" defer></script>
+    <!-- Enlace a un archivo JavaScript externo llamado validacion_datos.js que se ejecutará después de que el HTML se haya cargado -->
+    <link rel="stylesheet" href="register.css">
+
+</head>
+<body>
+    <!-- Contenido principal del documento -->
+    <form id="registroForm" action="validacion_datos.php" method="post">
+        <section>
+            <b>Registrarse</b>
+        </section>
+        <img src="img/user-plus-alt-svgrepo-com.svg">
+        <!-- Formulario para el registro de usuario que envía los datos a validacion_datos.php utilizando el método POST -->
+        <p>Usuario:<br><input type="text" name="user" id="user" required></p>
+        <!-- Campo de texto para ingresar el nombre de usuario, es obligatorio -->
+        <p>Nombre Completo:<br><input type="text" name="name" id="name" required></p>
+        <!-- Campo de texto para ingresar el nombre completo del usuario, es obligatorio -->
+        <p>Contraseña:<br> <input type="password" name="clave1" id="clave1" required></p>
+        <!-- Campo de texto para ingresar la contraseña, es obligatorio -->
+        <p>Repita la contraseña:<br> <input type="password" name="clave2" id="clave2" required></p>
+        <!-- Campo de texto para confirmar la contraseña, es obligatorio -->
+        <p>Correo electrónico:<br> <input type="email" name="email" id="email" required></p>
+        <!-- Campo de texto para ingresar el correo electrónico, es obligatorio y debe ser en formato de correo -->
+        <br>
+        <button type="submit" value="Registrarse">Registrarse</button>
+        <!-- Botón para enviar el formulario -->
+    </form>
+</body>
+</html>
