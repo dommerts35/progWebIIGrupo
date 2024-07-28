@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Usuario</title>
+    <style>
+        .container{
+            text-align: center;
+            margin: 20px auto;
+            max-width: 600px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        .profile-title{
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .user-info{
+            margin-top: 20px;
+        }
+        .description{
+            cursor: pointer;
+            color: blue;
+            text-decoration: underline;
+            margin-top: 10px;
+        }
+        textarea{
+            width: 100%;
+            margin-top: 10px;
+        }
+        #profile-picture{
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        #uploadPhoto{
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        #uploadedImage{
+            max-width: 200px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-tittle">Mi perfil</div>
+        <br>
+        <img id="profile-picture" src="perf.jfif" alt="Imagen de perfil" width="200" ALIGN="CENTER" onclick="changeProfilePicture()">
+        <div class="user-info">
+            <p><strong>Nombre:</strong> <span id="nombreUsuario">Nombre Completo del Usuario</span></p>
+        </div>
+        <div class="description" onclick="showDescriptionInput()">Descripción</div>
+        <textarea id="descriptionInput" style="display: none;"></textarea>
+        <button id="uploadPhoto" onclick="uploadPhoto()">Subir fotos:</button>
+        <img id="uploadedImage" style="display: none;">
+    </div>
+    <script>
+        function changeProfilePicture(){
+            document.getElementById('uploadPhoto').click();
+        }
+        function showDescriptionInput() {
+            var descriptionInput = document.getElementById('descriptionInput');
+            descriptionInput.style.display = 'block';
+            descriptionInput.focus();
+        }
+
+        function uploadPhoto() {
+            var fileInput = document.createElement("input");
+            fileInput.type = "file";
+            fileInput.style.display = "none";
+            document.body.appendChild(fileInput);
+
+            fileInput.addEventListener("change", function(event) {
+                var file = event.target.files[0];
+                var reader = new FileReader();
+                reader.onload = function(e) {
+                    var img = document.getElementById('uploadedImage');
+                    img.src = e.target.result;
+                    img.style.display = 'block';
+                };
+                reader.readAsDataURL(file);
+            });
+            fileInput.click();
+        }
+        const urlParams=new URLSearchParams(window.location.search);
+        const nombreUsuario=urlParams.get('nombre');
+        document.getElementById('nombreUsuario').innerText=nombreUsuario;
+    </script>
+</body>
+</html>
